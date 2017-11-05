@@ -1,0 +1,2 @@
+celery==4.1.0 # to submit tasks into celery
+#git+ssh://git@github.com/ddd1020/runner.git#master
