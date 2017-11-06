@@ -26,6 +26,8 @@ In this demo we are working with local filesystem and passing filesystem paths t
 
 - `pip install requirements.txt`
 
+- HACK: unpack zip file into 'final_data' (normally we would pull data from AWS bucket, but for this demo we're just doing filesystem)
+
 - HACK: install `runner app into 'dist-packages'
 
 in this demo I will omit turning `runner` repo into a PIP installable app. Since celery tasks must be shared between both `runner` and `data-pipeline` projects, its best to install `runner` app into `dist-packages`
